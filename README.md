@@ -25,7 +25,7 @@ The **Spotify-Clone** is a simple front-end project that mimics the user interfa
 ## Screenshots
 
 
-![Spotify-Clone](https://your-image-url-here.com)
+![Spotify-Clone](https://github.com/user-attachments/assets/eb75384c-9127-4ad3-ac6b-253956b31c23)
 
 
 ## Tech Stack
@@ -50,4 +50,4 @@ The **Spotify-Clone** is a simple front-end project that mimics the user interfa
 
 You can check out the live version of this project at the following link:
 
-[Spotify-Clone Live Demo](https://your-hosted-link.com)
+[Spotify-Clone Live Demo]( https://saugataghosh24.github.io/Spotify-Clone/)
