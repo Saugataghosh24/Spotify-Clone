@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.left{
+    width: 374px;  /*24vw*/
+    padding: 12px;
+    background-color: black;
+    color: white;
+}
+
+.right{
+    width: 1075px; /*70vw*/
+    margin-right: 70px;
+}
+
+.home, .library{
+    background-color: #121212;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.home ul li{
+    list-style: none;
+    width: 24px;
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+    font-weight: bold;
+    color: black;
+    filter: invert(.7);
+}
+
+.home ul li:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.logo img:hover{
+    cursor: pointer;
+}
+
+#playhead img:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+#playhead h4:hover{
+    cursor:pointer;
+    color: white;
+}
+
+.home li p{
+    /* filter: invert(.3); */
+    padding-top: 2px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.heading{
+    display: flex;
+    /* gap: 24px; */
+    color: #b3b3b3;
+    padding-top: 8px;
+}
+
+#playlist{
+    width: 24px;
+}
+
+.heading img{
+    width: 16px;
+    filter: invert(.7);
+}
+
+.heading h4{
+    padding-right: 160px; /* 140px */
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.library{
+    height: 525px; /*72vw*/
+}
+
+.footer{
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-top: 365px;
+    margin-left: 6px;
+}
+
+.lang{
+    display: flex;
+    border: 2px solid #b3b3b3;
+    border-radius: 10%;
+    color: black;
+    font-weight: bold;
+    filter: invert(1);
+    height: 16px;
+    padding: 6px 15px 6px 12px;
+    width: 80px;
+    gap:8px;
+    margin: 24px 6px;;
+}
+
+.header{
+    display: flex;
+    width: 1106px; /*72vw*/
+    height: 64px;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 0px 30px 0px 0px; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+    align-items: center;
+    background-color: #101010;
+}
+
+.nav img{
+    filter: invert(1);
+    width: 16px;
+    padding-left: 24px;
+}
+
+.btn{
+    font-weight: bold; 
+    color: #b3b3b3;
+}
+
+#sign:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 1.02rem;
+}
+
+#log{
+    margin-left: 40px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+#log:hover{
+    font-size: 1.04rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.916);
+}
+
+.playbar{
+    display:flex;
+    height: 56px;
+    width: 600px;
+    background-color: #1fdf64;
+    border-radius: 8px;
+}
+.songbtns{
+    display: flex;
+    padding: 16px 248px;
+    gap: 16px;
+}
+
+.hero{
+    background-color: #1e1e1e;
+    height: 600px;;
+    width: 1116px;
+    margin-bottom: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 20px 0px 22px 20px;
+}
+
+.hero h1{
+    margin-left: 10px;
+}
+
+.cardContainer1, .cardContainer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.card{
+    width: 172px;
+    height: 245px;
+    padding-left: 8px;
+    padding-top: 4px;
+    margin-bottom: 8px;
+    /* background-color: #252525; */
+    border-radius: 6px;
+}
+
+.card p{
+    filter: invert(.4);
+    font-size: 14px;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+.card h3{
+    margin-top: 8px;
+}
+
+#card1{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card1.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card2{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card2.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card3{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card3.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card4{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card4.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card5{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card5.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card6{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card6.jpeg");
+    background-size: cover;
+    position: relative;
+}
+
+#card8{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card8.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card9{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card9.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card10{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card10.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card11{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card11.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card12{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card12.jpeg");
+    background-size: cover;
+    position: relative;
+}
+#card13{
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    background-image: url("assets/card13.jpeg");
+    background-size: cover;
+    position: relative;
+}
+
+.outer-playbtn{
+    height:48px;
+    width:48px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    opacity: 0;
+}
+.playbtn{
+    position: absolute;
+    bottom: 9px;
+    right: 9px;
+}
+
+.card:hover{
+    .outer-playbtn{
+        transition:opacity .4s ease-in 0s  ;
+        opacity: 1;
+    }
+    cursor: pointer;
+}
+
+
+
+
+
+
+
